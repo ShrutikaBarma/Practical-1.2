@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyBank Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1 class="logo">MyBank</h1>
+      <nav>
+        <ul>
+          <li class="active">🏠 Dashboard</li>
+          <li>💳 Accounts</li>
+          <li>🔁 Transactions</li>
+          <li>📊 Analytics</li>
+          <li>⚙️ Settings</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <h2>Welcome, Shrutika 👋</h2>
+        <div class="balance-card">
+          <p>Account Balance</p>
+          <h3>₹ 85,200.00</h3>
+        </div>
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <h4>Savings Account</h4>
+          <p>₹ 50,000.00</p>
+        </div>
+        <div class="card">
+          <h4>Checking Account</h4>
+          <p>₹ 20,000.00</p>
+        </div>
+        <div class="card">
+          <h4>Credit Card</h4>
+          <p>₹ -5,000.00</p>
+        </div>
+      </section>
+
+      <section class="transactions">
+        <h3>Recent Transactions</h3>
+        <table>
+          <tr><th>Date</th><th>Description</th><th>Amount</th></tr>
+          <tr><td>Aug 01</td><td>ATM Withdrawal</td><td>-₹2,000</td></tr>
+          <tr><td>Jul 30</td><td>UPI Transfer</td><td>+₹5,000</td></tr>
+          <tr><td>Jul 29</td><td>Electricity Bill</td><td>-₹1,200</td></tr>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
